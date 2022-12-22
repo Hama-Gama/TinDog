@@ -1,0 +1,285 @@
+body{
+  font-family: "Montserrat";
+}
+
+a:hover{
+ cursor:pointer;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  position: relative;
+}
+
+h1{
+  font-family: "Montserrat", sans-serif, Arial;
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding-bottom: 4%;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Navigation bar */
+.navbar {
+  margin: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0%;
+}
+
+/* title image */
+.title-image{
+  width: 21%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 23%;
+}
+/* Features section */
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  margin-left: 2rem;
+  position: relative;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+h2{
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h4{
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+p{
+  color: #8f8f8f;
+}
+.feature-icons{
+  color: #ef8172;
+  margin-top: 2rem;
+}
+
+.feature-text{
+  padding-top: 20px;
+}
+.feature-icons:hover{
+   color: #ff4c68;
+}
+/* Testimonials */
+#testimonials{
+
+   text-align: center;
+   background-color: #ef8172;
+   color: #fff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+#cta{
+  background-color: #ff4c68;
+  height: 50vh;
+  text-align: center;
+}
+
+.find-true{
+  color: #fff;
+  font-size: 3rem;
+  padding: 5% 10% 0% 10%;
+  line-height: 1.7;
+  font-weight: 900;
+}
+.download-button2{
+  margin: 1% 1% 5% 0%;
+}
+
+#footer{
+  height: 30vh;
+  background-color: #fff;
+  text-align: center;
+}
+.copyright{
+   padding: 2% 10% 5% 10%;
+   color: #8f8f8f;
+   font-weight: 500;
+}
+.bi:hover{
+  color: #1877f2;
+}
+.social-media-icons{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10% 10% 0% 10%;
+}
+.bi-twitter{
+  margin-right: 5%;
+}
+.bi-facebook{
+  margin-right: 5%;
+}
+.bi-instagram{
+  margin-right: 5%;
+}
+
+
+
+
+
+
+
+/* mobile responsive screen width 0px-750px */
+@media (max-width: 750px) {
+  .title-image {
+    width: 60%;
+    transform: rotate(0);
+    position: absolute;
+    margin-top: 10%;
+    margin-right: -5%;
+  }
+
+  #title{
+    height: 190vh;
+  }
+
+  h2{
+    font-size: 1.7rem;
+    line-height: 1.2;
+  }
+
+  h1{
+    font-family: "Montserrat", sans-serif, Arial;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding-bottom: 4%;
+    text-align: center;
+  }
+  .container-fluid{
+    padding: 3% 15% 7%;
+  }
+  .btn{
+    font-size: 1.1rem;
+  }  
+
+  .navbar-brand{
+    font-size: 1.7rem;
+  }
+
+  .row{
+    align-items: center;
+  }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/* tablet screen width 750px-1000px */
+@media (min-width: 750.02px) and
+     (max-width: 1000px) {
+      .title-image {
+        width: 29%;
+        transform: rotate(0);
+        position: absolute;
+        right: 11%;
+        margin-top: -2%;
+      }
+    
+      h1{
+        font-family: "Montserrat", sans-serif, Arial;
+        font-size: 3rem;
+        line-height: 1.5;
+        font-weight: 900;
+        padding-bottom: 4%;
+        text-align: center;
+      }
+      .container-fluid{
+        padding: 3% 15% 7%;
+      }
+
+      .app-icon{
+        width: 22px;
+        height: 22px; 
+      }
+      .btn{
+        width: 100%;
+        margin-bottom: 1%;
+      }
+
+      .navbar {
+        margin: 0 0 2.5rem;
+      }
+      .navbar-brand{
+        font-size: 1.7rem;
+      }
+
+   }
+
+
+/* laptop-desktop screen over 1000px */
+@media (min-width: 1000.02px) {
+     .element {
+       width: 600px;
+     }
+   }
+
